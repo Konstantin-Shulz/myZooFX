@@ -23,7 +23,7 @@ public class HelloController {
     private Label labelContent;
     @FXML
     void getSoundCat() {
-        labelContent.setText(Cat.makeSound());
+       // labelContent.setText(Cat.makeSound());
     }
     @FXML
     void getSoundDelf() {
@@ -40,13 +40,14 @@ public class HelloController {
 
     @FXML
     void makeSoundAnimal() {
-        if (botCat.isArmed()){ labelContent.getSoundCat();}
-        if (botDog.isArmed()){ labelContent.getSoundDog();}
-        if (botEle.isArmed()){ labelContent.getSoundEle();}
-        if (botDelf.isArmed()){ labelContent.getSoundDelf();}
+        Animal a = null;
+        if (botCat.isArmed()){ a = new Cat("dsdsd");}
+      //  if (botDog.isArmed()){ labelContent.getSoundDog();}
+       // if (botEle.isArmed()){ labelContent.getSoundEle();}
+        //if (botDelf.isArmed()){ labelContent.getSoundDelf();}
 
 
-
+        labelContent.setText(a.makeSound());
 
     }
 

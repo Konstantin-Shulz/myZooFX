@@ -10,7 +10,7 @@ public abstract class Animal {
     protected Animal() {
     }
 
-    public abstract void makeSound();
+    public abstract String makeSound();
 
     @Override
     public String toString() {
