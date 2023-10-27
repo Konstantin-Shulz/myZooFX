@@ -10,10 +10,10 @@
    <children>
       <ButtonBar layoutX="7.0" layoutY="38.0" prefHeight="58.0" prefWidth="306.0">
         <buttons>
-          <Button fx:id="botDog" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#getSoundDog" text="Собака" />
-            <Button fx:id="botCat" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#getSoundCat" text="Кошка" />
-            <Button fx:id="botEle" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#getSoundEle" text="Слон" />
-            <Button fx:id="botDelf" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#getSoundDelf" text="Дельфин" />
+          <Button fx:id="botDog" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#switchAnimal" text="Собака" />
+            <Button fx:id="botCat" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#switchAnimal" text="Кошка" />
+            <Button fx:id="botEle" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#switchAnimal" text="Слон" />
+            <Button fx:id="botDelf" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#switchAnimal" text="Дельфин" />
         </buttons>
       </ButtonBar>
       <Button fx:id="grandBlueBottom" layoutX="26.0" layoutY="96.0" mnemonicParsing="false" onAction="#makeSoundAnimal" prefHeight="72.0" prefWidth="331.0" style="-fx-background-color: blue;" text="Большая синяя кнопка">

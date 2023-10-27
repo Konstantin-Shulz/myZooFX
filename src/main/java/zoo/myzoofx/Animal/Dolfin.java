@@ -1,7 +1,7 @@
 package zoo.myzoofx.Animal;
 
-public class Delfine extends Animal {
-    public Delfine(String name) {
+public class Dolfin extends Animal {
+    public Dolfin(String name) {
         super(name);
     }
 
