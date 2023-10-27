@@ -6,9 +6,8 @@ public class Delfine extends Animal {
     }
 
     @Override
-    public void makeSound() {
-        System.out.println("Свист да и только");
-
+    public String makeSound() {
+        return "Свист да и только";
     }
 }
 
